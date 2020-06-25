@@ -2165,7 +2165,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    libbtconfigstore \
     libgpustats \
     libqmiservices \
     libsdm-disp-vndapis \
