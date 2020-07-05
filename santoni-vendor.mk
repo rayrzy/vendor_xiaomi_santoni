@@ -65,9 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/santoni/proprietary/vendor/etc/ft5336_biel_1080p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_biel_1080p.ini \
     vendor/xiaomi/santoni/proprietary/vendor/etc/ft5336_oufei_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_oufei_720p.ini \
-    vendor/xiaomi/santoni/proprietary/vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml \
-    vendor/xiaomi/santoni/proprietary/vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml \
-    vendor/xiaomi/santoni/proprietary/vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml \
     vendor/xiaomi/santoni/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
