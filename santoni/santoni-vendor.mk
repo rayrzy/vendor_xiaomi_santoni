@@ -1575,12 +1575,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libmmsw_math.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_math.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libmmsw_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_opencl.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libmmsw_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_platform.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib64/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama_gp.so
-
-PRODUCT_PACKAGES += \
-    libts_detected_face_hal \
-    libts_face_beautify_hal
-PRODUCT_COPY_FILES += \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama_gp.so \
     vendor/xiaomi/santoni/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/xiaomi/santoni/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/xiaomi/santoni/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
@@ -2127,6 +2122,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
+    libts_detected_face_hal \
+    libts_face_beautify_hal \
     libloc_api_v02 \
     WfdService \
     CneApp \
